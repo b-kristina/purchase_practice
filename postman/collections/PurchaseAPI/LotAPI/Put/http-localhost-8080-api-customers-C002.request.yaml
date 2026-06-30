@@ -1,0 +1,23 @@
+$kind: http-request
+name: http://localhost:8080/api/customers/C002
+url: http://localhost:8080/api/lots/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"lotName\": \"Обновлённая поставка серверов Dell\",\r
+
+    \  \"customerCode\": \"C001\",\r
+
+    \  \"price\": 200000.00,\r
+
+    \  \"currencyCode\": \"RUB\",\r
+
+    \  \"ndsRate\": \"20%\",\r
+
+    \  \"placeDelivery\": \"г. Москва, ул. Пушкина 5\",\r
+
+    \  \"dateDelivery\": \"2026-07-20T10:00:00\"\r
+
+    }"

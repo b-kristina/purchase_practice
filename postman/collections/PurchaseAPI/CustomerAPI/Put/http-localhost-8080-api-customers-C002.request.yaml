@@ -1,0 +1,25 @@
+$kind: http-request
+name: http://localhost:8080/api/customers/C002
+url: http://localhost:8080/api/customers/C002
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"customerName\": \"ООО \\\"Новый Василёк\\\"\",\r
+
+    \  \"customerInn\": \"9876543210\",\r
+
+    \  \"customerKpp\": \"123456789\",\r
+
+    \  \"customerLegalAddress\": \"г. Москва, ул. Пушкина 5\",\r
+
+    \  \"customerPostalAddress\": \"г. Москва, ул. Пушкина 5\",\r
+
+    \  \"customerEmail\": \"new-vasilek@example.com\",\r
+
+    \  \"isOrganization\": true,\r
+
+    \  \"isPerson\": false\r
+
+    }"

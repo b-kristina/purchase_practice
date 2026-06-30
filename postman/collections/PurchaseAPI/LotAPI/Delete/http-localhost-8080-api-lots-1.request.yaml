@@ -1,0 +1,5 @@
+$kind: http-request
+name: http://localhost:8080/api/lots/1
+url: http://localhost:8080/api/lots/1
+method: DELETE
+order: 502234775289855

@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://localhost:8080/api/customers
+url: http://localhost:8080/api/customers?nameLike=Ромашка&isOrganization=true&sortBy=name&sortDirection=ASC
+method: GET
+queryParams:
+  nameLike: Ромашка
+  isOrganization: "true"
+  sortBy: name
+  sortDirection: ASC

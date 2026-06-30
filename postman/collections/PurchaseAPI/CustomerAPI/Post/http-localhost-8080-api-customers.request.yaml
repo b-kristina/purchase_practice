@@ -1,0 +1,27 @@
+$kind: http-request
+name: http://localhost:8080/api/customers
+url: http://localhost:8080/api/customers
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"customerCode\": \"C002\",\r
+
+    \  \"customerName\": \"ООО \\\"Василёк\\\"\",\r
+
+    \  \"customerInn\": \"9876543210\",\r
+
+    \  \"customerKpp\": \"123456789\",\r
+
+    \  \"customerLegalAddress\": \"г. Москва, ул. Ленина 1\",\r
+
+    \  \"customerPostalAddress\": \"г. Москва, ул. Ленина 1\",\r
+
+    \  \"customerEmail\": \"vasilek@example.com\",\r
+
+    \  \"isOrganization\": true,\r
+
+    \  \"isPerson\": false\r
+
+    }"
